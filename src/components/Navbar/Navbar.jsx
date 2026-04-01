@@ -3,7 +3,7 @@ import { ShoppingCart } from 'lucide-react';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-around py-8 shadow-md'>
+        <div className='flex flex-col sm:flex-row sm:justify-around items-center py-8 shadow-md gap-4 sm:gap-0'>
             <div>
                 <h1 className='text-4xl font-extrabold bg-linear-to-r from-purple-800 to-blue-500 bg-clip-text text-transparent transition-all duration-1000 p-2'>DigiTools</h1>
             </div>

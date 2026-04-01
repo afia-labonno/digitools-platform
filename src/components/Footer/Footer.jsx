@@ -12,7 +12,7 @@ const Footer = () => {
                     <p>Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
                 </div>
                 <div className='space-y-4'>
-                    <h3 className='text-xl'>Product</h3>
+                    <h3 className='text-xl'>Product</h3> 
                     <ul className='space-y-2 text-sm'>
                         <li>Features</li>
                         <li>Pricing</li>

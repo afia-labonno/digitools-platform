@@ -3,16 +3,16 @@ import { Check } from 'lucide-react';
 
 const PricingSection = () => {
     return (
-        <div className='mt-30 w-full'>
+        <div className='w-full mt-8 sm:mt-12 md:mt-16 lg:mt-24 px-4 sm:px-6 md:px-10'>
             <div className='mx-auto space-y-6'>
                 {/* title */}
                 <div className='flex flex-col items-center space-y-2'>
-                    <h1 className='text-6xl font-extrabold'>Simple, Transparent Pricing</h1>
-                    <p className='text-sm text-gray-600'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+                    <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold'>Simple, Transparent Pricing</h1>
+                    <p className='text-sm sm:text-base text-gray-600 max-w-[600px]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
                 </div>
 
                 {/* cards */}
-                <div className='flex gap-8 justify-center items-center m-10'>
+                <div className='flex gap-6 sm:gap-8 justify-center items-center m-10'>
 
                     <div className='card shadow-xl p-6 space-y-4 text-left rounded-lg bg-gray-50 w-[300px] h-[400px] flex flex-col'>
                         <div className=''>

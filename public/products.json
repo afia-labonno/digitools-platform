@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "ResumePro AI",
+    "description": "Create professional resumes with AI-powered suggestions and ATS optimization.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI content suggestions"
+    ],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "SocialBoost Scheduler",
+    "description": "Plan, schedule, and automate your social media posts across multiple platforms.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Multi-platform posting",
+      "Analytics dashboard",
+      "Auto scheduling",
+      "Content calendar"
+    ],
+    "icon": "Calendar"
+  },
+  {
+    "id": 3,
+    "name": "LogoCraft Studio",
+    "description": "Design stunning logos instantly with customizable templates and AI tools.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "500+ logo templates",
+      "Drag & drop editor",
+      "High-res export",
+      "Brand kit generator"
+    ],
+    "icon": "Palette"
+  },
+  {
+    "id": 4,
+    "name": "WriteGenie AI",
+    "description": "Generate high-quality blog posts, ads, and copywriting content in seconds.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AI blog writer",
+      "SEO optimization",
+      "Multiple tones",
+      "Plagiarism-free content"
+    ],
+    "icon": "PenTool"
+  },
+  {
+    "id": 5,
+    "name": "InvoiceMaster Pro",
+    "description": "Create, manage, and send professional invoices with automated tracking.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Custom invoice templates",
+      "Payment tracking",
+      "Client management",
+      "PDF export"
+    ],
+    "icon": "Receipt"
+  },
+  {
+    "id": 6,
+    "name": "CourseBuilder X",
+    "description": "Build and sell online courses with an all-in-one platform for creators.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Video hosting",
+      "Quiz builder",
+      "Student analytics",
+      "Payment integration"
+    ],
+    "icon": "BookOpen"
+  }
+]

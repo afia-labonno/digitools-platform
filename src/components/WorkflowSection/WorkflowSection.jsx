@@ -6,7 +6,7 @@ const WorkflowSection = () => {
         <div className='bg-linear-to-r from-blue-600 to-purple-800 w-full'>
             <div className='mx-auto flex flex-col justify-center items-center p-30 m-30 space-y-6'>
                 <div className='space-y-4'>
-                    <h1 className='text-white text-6xl font-bold'>
+                    <h1 className='text-white text-3xl sm:text-6xl text-center sm:font-bold'>
                         Ready to Transform Your Workflow?
                     </h1>
                     <p className='text-sm text-white text-center'>

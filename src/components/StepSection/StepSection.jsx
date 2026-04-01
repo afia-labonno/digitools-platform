@@ -2,11 +2,11 @@ import React from 'react';
 
 const StepSection = () => {
     return (
-        <div className='mt-20 w-full'>
+        <div className='w-full mt-8 sm:mt-12 md:mt-16 lg:mt-20 px-4 sm:px-6 md:px-10'>
             <div className='mx-auto space-y-6'>
                 {/* title */}
                 <div className='flex flex-col items-center space-y-2'>
-                    <h1 className='text-6xl font-extrabold'>Get Started in 3 Steps</h1>
+                    <h1 className='text-4xl sm:text-6xl font-extrabold'>Get Started in 3 Steps</h1>
                     <p>Start using premium digital tools in minutes, not hours.</p>
                 </div>
 

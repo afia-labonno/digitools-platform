@@ -3,12 +3,12 @@ import { Star } from 'lucide-react';
 
 const StateSection = () => {
     return (
-        <div className=' w-full bg-linear-to-r from-purple-800 via-purple-600 to-blue-500 mt-15'>
+        <div className=' w-full bg-linear-to-r from-purple-800 via-purple-600 to-blue-500 mt-8 sm:mt-12 px-4 sm:px-10'>
             <div className='flex justify-center items-center gap-20 text-white mx-auto text-center p-8'>
 
                 <div className='flex gap-8'>
                     <div className='space-y-2'>
-                        <h1 className='text-5xl font-bold'>50K+</h1>
+                        <h1 className='text-3xl sm:text-5xl font-bold'>50K+</h1>
                         <p>Active Users</p>
                     </div>
                     <div className="divider divider-horizontal divider-end before:bg-white after:bg-white h-20 mx-4"></div>
@@ -16,7 +16,7 @@ const StateSection = () => {
 
                 <div className='flex gap-8'>
                     <div className='space-y-2'>
-                    <h1 className='text-5xl font-bold'>200+</h1>
+                    <h1 className='text-3xl sm:text-5xl font-bold'>200+</h1>
                     <p>Premium Tools</p>
                 </div>
                 <div className="divider divider-horizontal divider-end before:bg-white after:bg-white h-20 mx-4"></div>
@@ -25,7 +25,7 @@ const StateSection = () => {
                 <div className='space-y-2'>
                     <div className='flex'>
                         <span><Star /></span>
-                        <h1 className='text-5xl font-bold'>4.9</h1>
+                        <h1 className='text-3xl sm:text-5xl font-bold'>4.9</h1>
                     </div>
 
                     <p>Rating</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className='flex justify-center items-center gap-5 mx-auto w-full space-y-6 mt-15 px-10'>
+        <div className='flex flex-col sm:flex-row justify-center items-center gap-5 mx-auto w-full space-y-6 mt-15 sm:px-10'>
             <div className='ml-20 w-[50%]'>
                 <div className="flex items-center gap-2 bg-zinc-100 w-80 px-5 py-4 rounded-full shadow-md">
                     <span className="w-3 h-3 rounded-full bg-linear-to-r from-purple-800 to-blue-500 animate-pulse "></span>
