@@ -48,7 +48,7 @@ const PricingSection = () => {
                             </div>
 
                         </div>
-                        <button className=' btn w-full px-4 py-2 rounded-full mt-auto text-white bg-linear-to-r from-blue-500 to-purple-800'>Get Started Free</button>
+                        <button className='cursor-pointer btn w-full px-4 py-2 rounded-full mt-auto text-white bg-linear-to-r from-blue-500 to-purple-800'>Get Started Free</button>
                     </div>
 
                     <div className='card relative shadow-xl p-6 space-y-4 text-left rounded-lg bg-gray-50 w-[300px] h-[400px] flex flex-col bg-linear-to-r from-blue-500 to-purple-800 text-white'>
@@ -99,7 +99,7 @@ const PricingSection = () => {
                             </div>
 
                         </div>
-                        <button className=' btn w-full px-4 py-2 rounded-full mt-auto text-purple-800'>Start Pro Trial</button>
+                        <button className='cursor-pointer btn w-full px-4 py-2 rounded-full mt-auto text-purple-800'>Start Pro Trial</button>
                     </div>
 
                     <div className='card shadow-xl p-6 space-y-4 text-left rounded-lg bg-gray-50 w-[300px] h-[400px] flex flex-col'>
@@ -146,7 +146,7 @@ const PricingSection = () => {
                             </div>
 
                         </div>
-                        <button className=' btn w-full px-4 py-2 rounded-full mt-auto text-white bg-linear-to-r from-blue-500 to-purple-800'>Contact Sales</button>
+                        <button className=' cursor-pointer btn w-full px-4 py-2 rounded-full mt-auto text-white bg-linear-to-r from-blue-500 to-purple-800'>Contact Sales</button>
                     </div>
 
                 </div>

@@ -3,7 +3,7 @@ import { Star } from 'lucide-react';
 
 const StateSection = () => {
     return (
-        <div className=' w-full bg-gradient-to-r from-purple-800 via-purple-600 to-blue-500 mt-15'>
+        <div className=' w-full bg-linear-to-r from-purple-800 via-purple-600 to-blue-500 mt-15'>
             <div className='flex justify-center items-center gap-20 text-white mx-auto text-center p-8'>
 
                 <div className='flex gap-8'>

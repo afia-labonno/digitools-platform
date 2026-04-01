@@ -15,9 +15,9 @@ const Banner = () => {
                     </p>
                 </div>
                 <div className='flex gap-3 mt-4'>
-                    <button className='btn rounded-full px-4 py-2 text-white  font-semibold bg-linear-to-r from-purple-800 to-blue-500 transition-all duration-1000'>Explore Products</button>
+                    <button className=' cursor-pointer btn rounded-full px-4 py-2 text-white  font-semibold bg-linear-to-r from-purple-800 to-blue-500 transition-all duration-1000'>Explore Products</button>
 
-                    <button className="p-[2px] rounded-full bg-linear-to-r from-purple-800 to-blue-500 transition-all duration-1000">
+                    <button className=" cursor-pointer p-[2px] rounded-full bg-linear-to-r from-purple-800 to-blue-500 transition-all duration-1000">
                         <span className="flex items-center gap-2 px-4 py-2 rounded-full bg-white text-purple-800 font-semibold">
                             <img src="/Play.png" alt="" className="w-4 h-4" />
                             Watch Demo

@@ -16,8 +16,8 @@ const WorkflowSection = () => {
                 </div>
                 <div className='space-y-4'>
                     <div className='flex flex-wrap gap-4 justify-center'>
-                        <button className='btn rounded-full text-purple-800 px-4 py-2'>Explore Products</button>
-                        <button className='btn btn-outline text-white rounded-full  px-4 py-2 '>View Pricing</button>
+                        <button className='cursor-pointer btn rounded-full text-purple-800 px-4 py-2 font-semibold'>Explore Products</button>
+                        <button className='cursor-pointer btn btn-outline text-white rounded-full  px-4 py-2 font-semibold '>View Pricing</button>
                        
                     </div>
                     
