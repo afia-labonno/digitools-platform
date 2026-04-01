@@ -1,9 +1,12 @@
-import React, { use } from 'react';
+import React, { use, useState } from 'react';
 import ProductCard from '../ProductCard/ProductCard';
+import Tabs from '../Tabs/Tabs';
 
 const Products = ({productPromise}) => {
     // console.log(productPromise);
     const products = use(productPromise);
+
+     const [activeTab, setActiveTab] = useState("product")
 
 
     return (
@@ -18,9 +21,12 @@ const Products = ({productPromise}) => {
                     <p>Choose from our curated collection of premium digital products designed 
                         <br /> to boost your productivity and creativity.
                     </p>
-                </div>
 
-                {/* tabs */}
+                    <div className='m-5'>
+                        {/* tabs */}
+                    <Tabs activeTab={activeTab} setActiveTab={setActiveTab}/>
+                    </div>
+                </div>
 
                 {/* product cards */}
                 <div className='grid grid-cols-1 sm:grid-cols-3 gap-6'>

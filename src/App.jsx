@@ -1,4 +1,5 @@
 
+import { useState } from "react"
 import Banner from "./components/Banner/Banner"
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
@@ -7,6 +8,7 @@ import Products from "./components/Products/Products"
 import StateSection from "./components/StateSection/StateSection"
 import StepSection from "./components/StepSection/StepSection"
 import WorkflowSection from "./components/WorkflowSection/WorkflowSection"
+import Tabs from "./components/Tabs/Tabs"
 
 const getProducts = async() =>{
   const response = await fetch("/products.json");
@@ -23,8 +25,9 @@ function App() {
       <Navbar />
       <Banner/>
       <StateSection/>
-
+      
       <Products productPromise={productPromise}/>
+      
 
       <StepSection/>
       <PricingSection/>
