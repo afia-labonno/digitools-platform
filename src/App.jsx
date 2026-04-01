@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar"
 import PricingSection from "./components/PricingSection/PricingSection"
 import StateSection from "./components/StateSection/StateSection"
 import StepSection from "./components/StepSection/StepSection"
+import WorkflowSection from "./components/WorkflowSection/WorkflowSection"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <StateSection/>
       <StepSection/>
       <PricingSection/>
+      <WorkflowSection/>
     </>
   )
 }
