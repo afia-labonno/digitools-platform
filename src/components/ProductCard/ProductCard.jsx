@@ -1,11 +1,28 @@
 import { Check } from 'lucide-react';
-import React from 'react';
+import React, { useState } from 'react';
 import * as Icons from "lucide-react";
+import { toast } from 'react-toastify';
 
 
-const ProductCard = ({product}) => {
+const ProductCard = ({product, carts, setCarts}) => {
     const Icon = Icons[product.icon];
     // console.log(product);
+
+    const [isAddedToCart, setIsAddedToCart] = useState(false) ; 
+
+    const handleBuyNow = () =>{
+        const isFound = carts.find(item => item.id === product.id)
+        if(isFound){
+            toast.error("Item already in cart") ;
+            return ;
+        }
+        
+        setIsAddedToCart(true) ;
+        setCarts([...carts, product]) ;
+        toast.success('item added to cart successfully');
+    }
+
+
     return (
         <div className="shadow-lg border border-zinc-300  rounded-3xl overflow-hidden p-6 space-y-4">
             {/* tag */}
@@ -57,10 +74,13 @@ const ProductCard = ({product}) => {
             </div>
 
             {/* Action Button */}
-            <button 
+            <button onClick={handleBuyNow}
                 className='btn rounded-full bg-linear-to-r from-blue-500 to-purple-800 
                 w-full px-4 py-2 mt-auto text-white cursor-pointer'>
-                Buy Now
+                
+                {
+                    isAddedToCart ? "Added to Cart" : "Buy Now"
+                }
             </button>
         </div>
     );

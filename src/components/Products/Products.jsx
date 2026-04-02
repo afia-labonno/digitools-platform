@@ -1,8 +1,9 @@
 import React, { use, useState } from 'react';
 import ProductCard from '../ProductCard/ProductCard';
 import Tabs from '../Tabs/Tabs';
+import Cart from '../Cart/Cart';
 
-const Products = ({productPromise}) => {
+const Products = ({productPromise ,  carts, setCarts}) => {
     // console.log(productPromise);
     const products = use(productPromise);
 
@@ -22,16 +23,35 @@ const Products = ({productPromise}) => {
                         <br /> to boost your productivity and creativity.
                     </p>
 
+                    {/* tabs */}
                     <div className='m-5'>
-                        {/* tabs */}
-                    <Tabs activeTab={activeTab} setActiveTab={setActiveTab}/>
+                        <Tabs 
+                            activeTab={activeTab} 
+                            setActiveTab={setActiveTab}
+                            carts={carts}
+                            setCarts={setCarts}
+                        />
                     </div>
+
                 </div>
+
+                {/* cart section */}
+                {activeTab === "cart" && (
+                    <Cart
+                        carts={carts}
+                        setCarts={setCarts}
+                    />
+                )}
 
                 {/* product cards */}
                 <div className='grid grid-cols-1 sm:grid-cols-3 gap-6'>
                    {products.map((product)=> ( 
-                        <ProductCard product={product} key={product.id}/>
+                        <ProductCard
+                            product={product} 
+                            key={product.id}
+                            carts={carts}
+                            setCarts={setCarts}
+                        />
 
                    ))}
                 </div>
